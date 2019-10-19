@@ -33,6 +33,7 @@ public class Calcolo {
                 return b * h;
             default:
                 return 0;
+                
         }
 
     }
