@@ -17,7 +17,7 @@ public class Calcolo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int b, h, area, perimetro;
+        int b, h;
         b = Integer.parseInt(JOptionPane.showInputDialog("inserisci la base: "));
         h = Integer.parseInt(JOptionPane.showInputDialog("inserisci l'altezza: "));
         System.out.println("Area: " + calcolo(b, h, 'a'));
